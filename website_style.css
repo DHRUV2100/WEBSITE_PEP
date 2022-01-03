@@ -1,0 +1,78 @@
+html{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* overflow-x: hidden; */
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* overflow-y: hidden; */
+}
+header>h1{
+    font-weight: 300;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+        margin: 0.5rem;
+}
+
+li{
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+ul{
+    display:flex;
+    justify-content:space-between; 
+    /* This wont give space between the li elements because size of nav bar is fixed according to number of ul .So either increase the width of  */
+}
+
+nav{
+    width: 22rem;
+}
+
+nav{
+    position: relative;
+    top:1rem;
+}
+
+a{
+    color: black;
+}
+
+#bigImg{
+    width: 95vw;
+    margin: 1rem;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 1rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    height: 3rem;
+    /* width: 100vw; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anch:hover{
+    color: tomato;
+}
